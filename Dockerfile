@@ -25,4 +25,4 @@ COPY . /app
 WORKDIR /app
 RUN go build
 ADD .env /.env
-CMD . /.env && ./goStocks
+CMD . /.env && ./StockTrader

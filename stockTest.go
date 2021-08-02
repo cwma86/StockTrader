@@ -141,7 +141,7 @@ func (alp alpacaClientContainer) run() {
 		log.Println("run")
 		// Rebalance the portfolio.
 		alpacaClient.rebalance()
-		time.Sleep(4 * time.Hour)
+		time.Sleep(15 * time.Minute)
 	}
 }
 
